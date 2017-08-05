@@ -1,0 +1,7 @@
+$red: #F44336;
+
+@include button-ui(
+    $ui: 'danger',
+    $background-color: $red,
+    $focused-background-color: darken($red, 10%)
+);
